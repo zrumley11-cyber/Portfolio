@@ -1,0 +1,702 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Zachary Rumley — aspiring video production professional creating content that taps into the emotions of viewers and inspires them.">
+  <title>Zachary Rumley | Video Production Portfolio</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body class="home-page">
+  <div class="site-shell">
+    <header class="topbar">
+      <a class="brand-mark" href="index.html" aria-label="Zachary Rumley home">ZR<span>/</span>VIDEO</a>
+      <div class="topbar-actions">
+        <a href="#story">Your Story</a>
+        <a href="#work">Work</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero-menu" id="work" aria-labelledby="hero-title">
+        <div class="stage" id="stage">
+          <div class="stage-media" aria-hidden="true">
+            <video class="stage-video is-active" id="stage-video-pingpong" muted loop playsinline poster="assets/posters/pingpong.jpg" preload="metadata">
+              <source src="assets/media/pingpong-web.mp4" type="video/mp4">
+            </video>
+            <video class="stage-video" id="stage-video-chickfila" muted loop playsinline poster="assets/posters/chickfila.jpg" preload="none">
+              <source src="assets/media/chickfila-web.mp4" type="video/mp4">
+            </video>
+            <img class="stage-photo" id="stage-photo" src="assets/profile.png" alt="Professional portrait of Zachary Rumley" loading="eager">
+            <div class="stage-vignette"></div>
+          </div>
+
+          <div class="stage-copy" id="stage-copy">
+            <p class="eyebrow">VIDEO PRODUCTION / FEATURED WORK</p>
+            <h1 id="hero-title">Stories built to<br><em>move people.</em></h1>
+            <p class="stage-summary" id="stage-summary">I am an aspiring professional whose goal is to create content that taps into the emotions of viewers and ultimately inspires them.</p>
+            <div class="stage-meta" id="stage-meta">
+              <span>01 / 02</span>
+              <span>Ping Pong Promo</span>
+              <span>03:01</span>
+            </div>
+          </div>
+
+          <div class="stage-cta-row">
+            <a class="primary-action" id="stage-action" href="project-pingpong.html">Open project <span>↗</span></a>
+            <button class="quiet-action" id="play-stage" type="button">Pause motion</button>
+          </div>
+
+          <div class="menu-rail" aria-label="Production menu">
+            <button class="menu-item is-active" type="button" data-view="pingpong" aria-pressed="true">
+              <span class="menu-number">01</span>
+              <span class="menu-title">Ping Pong Promo</span>
+              <span class="menu-sub">Interview / B-roll</span>
+            </button>
+            <button class="menu-item" type="button" data-view="chickfila" aria-pressed="false">
+              <span class="menu-number">02</span>
+              <span class="menu-title">Chick-fil-A Sauce</span>
+              <span class="menu-sub">30-second commercial</span>
+            </button>
+            <button class="menu-item" type="button" data-view="story" aria-pressed="false">
+              <span class="menu-number">03</span>
+              <span class="menu-title">Your Story</span>
+              <span class="menu-sub">Person / purpose</span>
+            </button>
+          </div>
+
+          <div class="scroll-cue">SCROLL / EXPLORE</div>
+        </div>
+      </section>
+
+      <section class="story-section section-grid" id="story" aria-labelledby="story-title">
+        <div class="section-label">YOUR STORY / 03</div>
+        <div class="story-photo-wrap">
+          <img src="assets/profile.png" alt="Professional portrait of Zachary Rumley" class="story-photo" loading="lazy">
+        </div>
+        <div class="story-copy">
+          <p class="eyebrow">A person behind the work</p>
+          <h2 id="story-title">I want the work to<br><span>mean something.</span></h2>
+          <div class="quote-stack">
+            <blockquote>“I want to create content that moves the audience personally by using a combination of the story and the music to encourage and motivate them.”</blockquote>
+            <p>“I care about these things because of the way media, mainly movies, have connected with me on a deep level. I have personally experienced the power of a well-told story and the powerful emotion it creates. I want to use what skills and talents God has given me to showcase His love to others through media.”</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="work-list" aria-labelledby="work-title">
+        <div class="section-head">
+          <div>
+            <div class="section-label">FEATURED WORK</div>
+            <h2 id="work-title">Two projects.<br><span>Two kinds of storytelling.</span></h2>
+          </div>
+          <p class="section-note">A focused look at the projects that best show how I am learning to shape story, music, performance, and emotion.</p>
+        </div>
+
+        <a class="work-row" href="project-pingpong.html">
+          <div class="work-index">01</div>
+          <div class="work-thumb landscape">
+            <img src="assets/posters/pingpong.jpg" alt="Still from the Ping Pong promotional video" loading="lazy">
+            <span class="thumb-play">VIEW</span>
+          </div>
+          <div class="work-info">
+            <p class="eyebrow">Video Production final project</p>
+            <h3>Ping Pong Promo</h3>
+            <p>I wanted people to see that the org was fun and competitive, and I wanted them to consider joining once they watched.</p>
+          </div>
+          <span class="row-arrow">↗</span>
+        </a>
+
+        <a class="work-row work-row-vertical" href="project-chickfila.html">
+          <div class="work-index">02</div>
+          <div class="work-thumb vertical">
+            <img src="assets/posters/chickfila.jpg" alt="Still from the Chick-fil-A sauce commercial" loading="lazy">
+            <span class="thumb-play">VIEW</span>
+          </div>
+          <div class="work-info">
+            <p class="eyebrow">30-second commercial reel</p>
+            <h3>Chick-fil-A Sauce</h3>
+            <p>I wanted the viewers to enjoy watching the video, laugh at the comedy of it, and also buy more Chick-fil-A sauce.</p>
+          </div>
+          <span class="row-arrow">↗</span>
+        </a>
+      </section>
+
+      <section class="skills-section" aria-labelledby="skills-title">
+        <div class="section-label">PRODUCTION FOOTPRINT</div>
+        <h2 id="skills-title">Learning the craft<br><span>by making the work.</span></h2>
+        <div class="skill-grid">
+          <div class="skill-block">
+            <p class="skill-number">01</p>
+            <h3>Camera + lighting</h3>
+            <p>Sony FX-30. Three-point lighting. Shotgun mic on a boom/C-stand setup.</p>
+          </div>
+          <div class="skill-block">
+            <p class="skill-number">02</p>
+            <h3>Postproduction</h3>
+            <p>Adobe Premiere Pro. Sound cleanup, music, sound bites, take selection, and pacing.</p>
+          </div>
+          <div class="skill-block">
+            <p class="skill-number">03</p>
+            <h3>Production responsibility</h3>
+            <p>Preproduction planning, equipment reservation, interview coordination, talent releases, shooting, and editing.</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="contact-section" id="contact" aria-labelledby="contact-title">
+        <div class="contact-panel">
+          <div class="section-label">CONTACT</div>
+          <h2 id="contact-title">Let’s make something<br><span>that people feel.</span></h2>
+          <p>Phone: <a href="tel:+12315577327">231-557-7327</a></p>
+          <p>Email: <a href="mailto:Zrumley11@gmail.com">Zrumley11@gmail.com</a></p>
+          <p>LinkedIn: <a href="https://www.linkedin.com/in/zachary-rumley" target="_blank" rel="noreferrer">www.linkedin.com/in/zachary-rumley</a></p>
+        </div>
+        <div class="contact-side">VIDEO<br>PRODUCTION<br><span>ZR / 2026</span></div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <span>Zachary Rumley</span>
+      <span>Video Production Portfolio</span>
+      <a href="#work">Back to work ↑</a>
+    </footer>
+  </div>
+  <script src="script.js" defer></script>
+</body>
+</html>
+
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Chick-fil-A Sauce commercial — Zachary Rumley video production project.">
+  <title>Chick-fil-A Sauce | Zachary Rumley</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body class="project-page chickfila-project">
+  <header class="topbar project-topbar">
+    <a class="brand-mark" href="index.html">ZR<span>/</span>VIDEO</a>
+    <a class="back-link" href="index.html">← Production menu</a>
+  </header>
+
+  <main>
+    <section class="commercial-hero">
+      <div class="commercial-visual">
+        <video controls playsinline poster="assets/posters/chickfila.jpg" preload="metadata">
+          <source src="assets/media/chickfila-web.mp4" type="video/mp4">
+        </video>
+      </div>
+      <div class="commercial-copy">
+        <p class="eyebrow">02 / 30-SECOND COMMERCIAL REEL</p>
+        <h1>Chick-fil-A<br><em>Sauce</em></h1>
+        <p class="lead">I wanted the viewers to enjoy watching the video, laugh at the comedy of it, and also buy more Chick-fil-A sauce.</p>
+        <div class="project-tags"><span>00:30</span><span>Vertical</span><span>Comedy</span></div>
+      </div>
+    </section>
+
+    <section class="production-board">
+      <div class="board-title">
+        <p class="eyebrow">ONE-PERSON PRODUCTION</p>
+        <h2>I personally did<br><span>everything in this video.</span></h2>
+      </div>
+      <div class="board-copy">
+        <p>I personally did everything in this video: I created a script, got two actors, set up the camera, shot the footage, set up the audio, and edited it all in post.</p>
+        <div class="board-list">
+          <div><span>01</span><strong>Script + casting</strong></div>
+          <div><span>02</span><strong>Camera + audio setup</strong></div>
+          <div><span>03</span><strong>Three takes / one vertical master</strong></div>
+          <div><span>04</span><strong>Editing + music</strong></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="take-layout">
+      <div class="take-visual">
+        <img src="assets/posters/chickfila.jpg" alt="Behind the commercial's outdoor Chick-fil-A scene" loading="lazy">
+      </div>
+      <div class="take-copy">
+        <div class="section-label">EDITING / CAMERA</div>
+        <h2>Three takes,<br>then shape the flow.</h2>
+        <p>The post-production consisted of working with the audio to get it consistent, layering music in the background, and cutting up the takes to make it flow smoothly.</p>
+        <p>I shot three takes, one with both my actors, and then two other shots over each of their shoulders.</p>
+      </div>
+    </section>
+
+    <section class="reflection-panel reflection-panel-light">
+      <div class="reflection-mark">REFLECTION</div>
+      <div class="reflection-copy">
+        <h2>Slow down.<br><span>Make the shot worth it.</span></h2>
+        <p>I learned that using a brand logo the whole time would be a good way to use my advertising time to its max. I also learned to take my time when setting up for a shot; I learned to be ok slowing down and making sure the video looks the best it can. I also learned I need to give myself a lot of time to set up before I have my actors come.</p>
+      </div>
+    </section>
+
+    <section class="technical-band technical-band-light">
+      <div><span>EDIT</span><strong>Premiere Pro</strong></div>
+      <div><span>CAMERA</span><strong>Sony FX-30 mounted sideways</strong></div>
+      <div><span>AUDIO</span><strong>Shotgun mic wired into camera</strong></div>
+      <div><span>MOUNT</span><strong>Boom pole + C-stand</strong></div>
+    </section>
+
+    <section class="project-next">
+      <a href="project-pingpong.html" class="next-project">
+        <span>Previous project</span>
+        <strong>Ping Pong Promo ↗</strong>
+      </a>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <span>Zachary Rumley</span>
+    <a href="index.html">Production menu</a>
+  </footer>
+</body>
+</html>
+
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Ping Pong Promo — Zachary Rumley video production project.">
+  <title>Ping Pong Promo | Zachary Rumley</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body class="project-page">
+  <header class="topbar project-topbar">
+    <a class="brand-mark" href="index.html">ZR<span>/</span>VIDEO</a>
+    <a class="back-link" href="index.html">← Production menu</a>
+  </header>
+
+  <main>
+    <section class="project-hero project-hero-pingpong">
+      <div class="project-hero-media">
+        <video controls playsinline poster="assets/posters/pingpong.jpg" preload="metadata">
+          <source src="assets/media/pingpong-web.mp4" type="video/mp4">
+        </video>
+      </div>
+      <div class="project-hero-copy">
+        <p class="eyebrow">01 / VIDEO PRODUCTION FINAL PROJECT</p>
+        <h1>Ping Pong<br><em>Promo</em></h1>
+        <p class="lead">I wanted people to see that the org was fun and competitive, and I wanted them to consider joining once they watched.</p>
+        <div class="project-tags"><span>03:01</span><span>Interview style</span><span>B-roll</span></div>
+      </div>
+    </section>
+
+    <section class="project-story project-story-pingpong">
+      <div class="project-side-label">THE WORK</div>
+      <div class="project-story-main">
+        <div class="detail-block wide">
+          <p class="eyebrow">What I did</p>
+          <h2>A project that let me work across the whole production.</h2>
+        </div>
+        <div class="detail-columns">
+          <div class="detail-block">
+            <h3>Preproduction</h3>
+            <p>For preproduction, I was responsible for shooting B-Roll, Reserving Equipment, setting up the interview person/date, and getting the talent release form signatures.</p>
+          </div>
+          <div class="detail-block">
+            <h3>Interview day</h3>
+            <p>On interview day, I set up lights and talked to the interviewee.</p>
+          </div>
+          <div class="detail-block">
+            <h3>Postproduction</h3>
+            <p>After the interview, I edited the raw footage of our interviewee into sound bites, cleaned up the audio to improve its quality, found/added the music, and added most of the B-roll to the video.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="reflection-panel">
+      <div class="reflection-mark">REFLECTION</div>
+      <div class="reflection-copy">
+        <h2>What I learned about<br><span>telling the story.</span></h2>
+        <p>When I edited this video, I honestly completely forgot about telling a story. If I could redo the video, I would try to tell a clear story with what the interviewee was saying. Instead, I just found all the good sound bites and threw them together. I would also use different music and get more appealing shots</p>
+      </div>
+    </section>
+
+    <section class="technical-band">
+      <div><span>CAMERA</span><strong>Sony FX-30</strong></div>
+      <div><span>AUDIO</span><strong>Shotgun mic + C-stand</strong></div>
+      <div><span>LIGHTING</span><strong>3-point lighting</strong></div>
+      <div><span>EDIT</span><strong>Adobe Premiere</strong></div>
+    </section>
+
+    <section class="project-next">
+      <a href="project-chickfila.html" class="next-project">
+        <span>Next project</span>
+        <strong>Chick-fil-A Sauce ↗</strong>
+      </a>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <span>Zachary Rumley</span>
+    <a href="index.html">Production menu</a>
+  </footer>
+</body>
+</html>
+
+# Zachary Rumley — Video Production Portfolio
+
+Static portfolio site built for a class portfolio submission. The site is designed around a polished production-menu experience: image/video-forward presentation, a compact project selector, smooth state changes, and dedicated project pages.
+
+## Files
+- `index.html` — homepage / production menu
+- `project-pingpong.html` — featured project page
+- `project-chickfila.html` — featured project page
+- `styles.css` — site styling and responsive layout
+- `script.js` — production-menu state changes and video controls
+- `assets/profile.png` — supplied headshot
+- `assets/posters/` — generated poster frames from the supplied videos
+- `assets/media/` — web-optimized copies of the supplied videos
+
+## Publish on GitHub Pages
+1. Create a new GitHub repository.
+2. Upload the files in this folder directly into the repository root.
+3. In GitHub, open **Settings → Pages**.
+4. Set the source to **Deploy from a branch** and choose the default branch and `/ (root)`.
+5. Save. GitHub Pages will publish the static site.
+
+## Media note
+The original Ping Pong Promo upload was too large for a normal GitHub repository file. The `assets/media/` files are web-optimized copies so the site can be hosted more easily. The supplied originals are not altered or overwritten.
+
+## Easy edits
+- Replace text in the HTML files when you are ready to revise portfolio copy.
+- Replace poster images in `assets/posters/` if you want different opening frames.
+- Replace the video files in `assets/media/` using the same filenames to keep the site wiring unchanged.
+- Contact links are in `index.html`.
+
+(function () {
+  const buttons = document.querySelectorAll('.menu-item');
+  const videos = {
+    pingpong: document.getElementById('stage-video-pingpong'),
+    chickfila: document.getElementById('stage-video-chickfila')
+  };
+  const photo = document.getElementById('stage-photo');
+  const summary = document.getElementById('stage-summary');
+  const meta = document.getElementById('stage-meta');
+  const action = document.getElementById('stage-action');
+  const title = document.getElementById('hero-title');
+  const playButton = document.getElementById('play-stage');
+
+  if (!buttons.length || !title) return;
+
+  const views = {
+    pingpong: {
+      title: 'Stories built to<br><em>move people.</em>',
+      summary: 'I am an aspiring professional whose goal is to create content that taps into the emotions of viewers and ultimately inspires them.',
+      meta: '<span>01 / 02</span><span>Ping Pong Promo</span><span>03:01</span>',
+      href: 'project-pingpong.html'
+    },
+    chickfila: {
+      title: 'Comedy, craft,<br><em>and a reason to watch.</em>',
+      summary: 'I wanted the viewers to enjoy watching the video, laugh at the comedy of it, and also buy more Chick-fil-A sauce.',
+      meta: '<span>02 / 02</span><span>Chick-fil-A Sauce</span><span>00:30</span>',
+      href: 'project-chickfila.html'
+    },
+    story: {
+      title: 'The person<br><em>behind the work.</em>',
+      summary: 'I want to use what skills and talents God has given me to showcase His love to others through media.',
+      meta: '<span>03 / 03</span><span>Your Story</span><span>About</span>',
+      href: '#story'
+    }
+  };
+
+  function pauseAll() {
+    Object.values(videos).forEach((video) => {
+      if (!video) return;
+      video.pause();
+      video.classList.remove('is-active');
+      video.setAttribute('aria-hidden', 'true');
+    });
+    if (photo) {
+      photo.classList.remove('is-active');
+      photo.setAttribute('aria-hidden', 'true');
+    }
+  }
+
+  async function activate(viewName) {
+    const view = views[viewName];
+    if (!view) return;
+    buttons.forEach((button) => {
+      const active = button.dataset.view === viewName;
+      button.classList.toggle('is-active', active);
+      button.setAttribute('aria-pressed', active ? 'true' : 'false');
+    });
+
+    pauseAll();
+    title.innerHTML = view.title;
+    summary.textContent = view.summary;
+    meta.innerHTML = view.meta;
+    action.href = view.href;
+    action.textContent = viewName === 'story' ? 'Read your story ↘' : 'Open project ↗';
+
+    if (viewName === 'story') {
+      photo.classList.add('is-active');
+      photo.removeAttribute('aria-hidden');
+      return;
+    }
+
+    const video = videos[viewName];
+    video.classList.add('is-active');
+    video.removeAttribute('aria-hidden');
+    try { await video.play(); } catch (_) {}
+    playButton.textContent = 'Pause motion';
+  }
+
+  buttons.forEach((button) => {
+    button.addEventListener('click', () => activate(button.dataset.view));
+  });
+
+  playButton?.addEventListener('click', () => {
+    const activeVideo = Array.from(Object.values(videos)).find((video) => video && video.classList.contains('is-active'));
+    if (!activeVideo) return;
+    if (activeVideo.paused) {
+      activeVideo.play();
+      playButton.textContent = 'Pause motion';
+    } else {
+      activeVideo.pause();
+      playButton.textContent = 'Play motion';
+    }
+  });
+
+  activate('pingpong');
+})();
+
+:root {
+  --bg: #0a0b0e;
+  --panel: #111319;
+  --panel-2: #161920;
+  --text: #f2f0ea;
+  --muted: #a7a9ae;
+  --faint: #666a73;
+  --line: rgba(255,255,255,.14);
+  --accent: #e9ef5c;
+  --max: 1440px;
+  --serif: Georgia, "Times New Roman", serif;
+  --sans: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+}
+
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--text);
+  font-family: var(--sans);
+  line-height: 1.5;
+}
+a { color: inherit; text-decoration: none; }
+button, a { -webkit-tap-highlight-color: transparent; }
+button { font: inherit; }
+img, video { display: block; max-width: 100%; }
+
+.site-shell, .project-page main, .project-page footer, .project-page .topbar { width: min(100%, var(--max)); margin-inline: auto; }
+.topbar {
+  position: fixed;
+  z-index: 30;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 0;
+  padding: 20px 24px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  mix-blend-mode: normal;
+  width: min(100%, var(--max));
+}
+.brand-mark { font-weight: 800; letter-spacing: .08em; font-size: .9rem; }
+.brand-mark span { color: var(--accent); padding: 0 .18rem; }
+.topbar-actions { display: flex; gap: 20px; font-size: .72rem; text-transform: uppercase; letter-spacing: .12em; }
+.topbar-actions a { opacity: .72; transition: opacity .25s ease; }
+.topbar-actions a:hover { opacity: 1; }
+
+.hero-menu { min-height: 100vh; }
+.stage {
+  min-height: 100vh;
+  position: relative;
+  overflow: hidden;
+  background: #0d1116;
+  border-bottom: 1px solid var(--line);
+}
+.stage-media, .stage-vignette, .stage-photo, .stage-video { position: absolute; inset: 0; width: 100%; height: 100%; }
+.stage-video, .stage-photo { object-fit: cover; opacity: 0; transform: scale(1.035); transition: opacity .65s ease, transform 1.2s ease; }
+.stage-video.is-active, .stage-photo.is-active { opacity: 1; transform: scale(1); }
+.stage-photo { object-position: center 25%; filter: saturate(.8) contrast(.98); }
+.stage-vignette { background: linear-gradient(90deg, rgba(8,10,13,.9) 0%, rgba(8,10,13,.42) 45%, rgba(8,10,13,.2) 70%, rgba(8,10,13,.55) 100%), linear-gradient(0deg, rgba(8,10,13,.84) 0%, rgba(8,10,13,0) 48%); pointer-events: none; }
+.stage-copy { position: absolute; z-index: 6; left: clamp(24px, 6vw, 90px); top: 28%; width: min(690px, 48vw); }
+.eyebrow { margin: 0 0 12px; color: #d4d5d7; text-transform: uppercase; letter-spacing: .18em; font-size: .66rem; font-weight: 700; }
+h1, h2, h3, p { margin-top: 0; }
+.stage-copy h1 { font-size: clamp(4rem, 8.5vw, 8.6rem); line-height: .86; letter-spacing: -.065em; margin-bottom: 30px; font-weight: 800; }
+h1 em, h2 span, .stage-copy em { font-family: var(--serif); font-style: italic; font-weight: 400; }
+.stage-summary { font-size: clamp(1rem, 1.6vw, 1.22rem); max-width: 600px; color: #e2e2df; }
+.stage-meta { display: flex; gap: 18px; margin-top: 28px; color: #c7c9ce; font-size: .68rem; text-transform: uppercase; letter-spacing: .14em; }
+.stage-cta-row { position: absolute; z-index: 8; left: clamp(24px, 6vw, 90px); bottom: 76px; display: flex; gap: 14px; align-items: center; }
+.primary-action, .quiet-action { border: 1px solid rgba(255,255,255,.18); padding: 13px 17px; border-radius: 999px; text-transform: uppercase; letter-spacing: .12em; font-size: .65rem; }
+.primary-action { background: var(--text); color: #121418; border-color: var(--text); }
+.quiet-action { color: var(--text); background: rgba(0,0,0,.18); backdrop-filter: blur(14px); cursor: pointer; }
+.primary-action span { color: #676b10; margin-left: 4px; }
+.menu-rail { position: absolute; z-index: 10; top: 50%; right: 4.5%; transform: translateY(-50%); width: min(340px, 32vw); display: grid; gap: 10px; }
+.menu-item { text-align: left; background: rgba(8,9,12,.34); color: #fff; border: 1px solid rgba(255,255,255,.14); padding: 18px 20px; border-radius: 15px; backdrop-filter: blur(18px); cursor: pointer; transition: .35s ease; }
+.menu-item:hover, .menu-item.is-active { transform: translateX(-10px); background: rgba(8,9,12,.62); border-color: rgba(255,255,255,.34); }
+.menu-item.is-active { box-shadow: 0 0 0 1px rgba(233,239,92,.25) inset; }
+.menu-number { color: var(--accent); font-size: .65rem; letter-spacing: .14em; display: block; margin-bottom: 6px; }
+.menu-title { display: block; font-size: 1rem; font-weight: 700; }
+.menu-sub { display: block; color: #bec0c5; font-size: .72rem; margin-top: 5px; }
+.scroll-cue { position: absolute; z-index: 9; right: 4.5%; bottom: 42px; color: rgba(255,255,255,.6); font-size: .62rem; text-transform: uppercase; letter-spacing: .16em; }
+
+.section-grid, .work-list, .skills-section, .contact-section { padding: 120px clamp(24px, 6vw, 90px); }
+.section-grid { display: grid; grid-template-columns: 1.05fr 1.5fr; gap: clamp(36px, 7vw, 110px); align-items: center; border-bottom: 1px solid var(--line); }
+.section-label { color: var(--faint); text-transform: uppercase; font-size: .63rem; letter-spacing: .18em; font-weight: 700; }
+.story-photo-wrap { max-width: 480px; position: relative; }
+.story-photo-wrap::after { content: ""; position: absolute; inset: 12px -12px -12px 12px; border: 1px solid rgba(233,239,92,.35); z-index: -1; }
+.story-photo { width: 100%; aspect-ratio: 1 / 1; object-fit: cover; filter: saturate(.82); }
+.story-copy h2, .section-head h2, .skills-section h2 { font-size: clamp(3rem, 6vw, 6.8rem); line-height: .9; letter-spacing: -.05em; margin: 18px 0 30px; }
+.quote-stack { display: grid; grid-template-columns: 1.15fr 1fr; gap: 40px; }
+blockquote { margin: 0; font-size: clamp(1.35rem, 2.1vw, 2rem); line-height: 1.25; }
+.quote-stack > p { color: var(--muted); max-width: 560px; }
+
+.work-list { border-bottom: 1px solid var(--line); }
+.section-head { display: flex; justify-content: space-between; gap: 50px; align-items: end; margin-bottom: 60px; }
+.section-note { max-width: 390px; color: var(--muted); font-size: .95rem; }
+.work-row { display: grid; grid-template-columns: 70px minmax(220px, 38%) 1fr 40px; align-items: center; gap: 30px; padding: 26px 0; border-top: 1px solid var(--line); transition: padding .3s ease; }
+.work-row:hover { padding-left: 14px; padding-right: 14px; background: linear-gradient(90deg, rgba(255,255,255,.025), transparent); }
+.work-index { font-size: .64rem; letter-spacing: .16em; color: var(--faint); }
+.work-thumb { position: relative; overflow: hidden; background: #202228; }
+.work-thumb.landscape { aspect-ratio: 16/9; }
+.work-thumb.vertical { aspect-ratio: 9/12; width: 180px; justify-self: start; }
+.work-thumb img { width: 100%; height: 100%; object-fit: cover; transition: transform .65s ease; }
+.work-row:hover .work-thumb img { transform: scale(1.035); }
+.thumb-play { position: absolute; left: 14px; bottom: 14px; background: rgba(9,10,12,.72); border: 1px solid rgba(255,255,255,.18); padding: 7px 9px; border-radius: 999px; font-size: .57rem; letter-spacing: .16em; }
+.work-info h3 { font-size: clamp(1.8rem, 3vw, 3rem); margin: 0 0 10px; letter-spacing: -.04em; }
+.work-info p:not(.eyebrow) { max-width: 600px; color: var(--muted); margin-bottom: 0; }
+.row-arrow { font-size: 1.4rem; color: #bfc2c7; }
+
+.skills-section { display: grid; grid-template-columns: 1fr 2fr; gap: 60px; border-bottom: 1px solid var(--line); }
+.skill-grid { grid-column: 2; display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px; }
+.skill-block { padding-top: 18px; border-top: 1px solid var(--line); }
+.skill-number { color: var(--accent); font-size: .62rem; letter-spacing: .16em; }
+.skill-block h3 { font-size: 1.05rem; margin-bottom: 8px; }
+.skill-block p:last-child { color: var(--muted); font-size: .87rem; }
+
+.contact-section { display: grid; grid-template-columns: 1fr 1fr; gap: 60px; align-items: end; }
+.contact-panel h2 { font-size: clamp(3rem, 6vw, 6.7rem); line-height: .9; letter-spacing: -.055em; margin: 18px 0 30px; }
+.contact-panel p { color: var(--muted); margin-bottom: 6px; }
+.contact-panel a { color: var(--text); text-decoration: underline; text-decoration-color: rgba(233,239,92,.45); text-underline-offset: 4px; }
+.contact-side { justify-self: end; text-align: right; font-size: clamp(1.8rem, 4vw, 5.5rem); font-weight: 800; line-height: .83; letter-spacing: -.08em; color: rgba(255,255,255,.12); }
+.contact-side span { color: rgba(233,239,92,.5); font-size: .28em; letter-spacing: .12em; }
+.footer { display: flex; gap: 20px; justify-content: space-between; padding: 26px 24px 34px; color: #70747d; font-size: .65rem; text-transform: uppercase; letter-spacing: .13em; }
+.footer a { color: #a1a5aa; }
+
+/* Project pages */
+.project-topbar { position: sticky; top: 0; background: rgba(10,11,14,.8); backdrop-filter: blur(16px); z-index: 20; }
+.back-link { color: #c8c9cd; font-size: .68rem; letter-spacing: .12em; text-transform: uppercase; }
+.project-hero, .commercial-hero { min-height: 100vh; padding: 118px 24px 70px; display: grid; align-items: center; gap: 70px; }
+.project-hero { grid-template-columns: 1.55fr .85fr; }
+.project-hero-media { background: #0e1014; border: 1px solid var(--line); }
+.project-hero-media video { width: 100%; aspect-ratio: 16/9; object-fit: cover; }
+.project-hero-copy h1, .commercial-copy h1 { font-size: clamp(4rem, 8vw, 8rem); line-height: .83; letter-spacing: -.065em; margin: 12px 0 28px; }
+.lead { font-size: clamp(1rem, 1.5vw, 1.22rem); color: #d9d9d5; max-width: 600px; }
+.project-tags { display: flex; gap: 8px; flex-wrap: wrap; margin-top: 26px; }
+.project-tags span { border: 1px solid var(--line); padding: 7px 10px; border-radius: 999px; color: #c3c5ca; text-transform: uppercase; font-size: .6rem; letter-spacing: .12em; }
+.project-story { padding: 120px 24px; display: grid; grid-template-columns: .5fr 1.5fr; gap: 40px; border-top: 1px solid var(--line); }
+.project-side-label { font-size: .62rem; letter-spacing: .18em; color: var(--faint); text-transform: uppercase; }
+.detail-block h2 { font-size: clamp(2.7rem, 5vw, 5.6rem); line-height: .9; letter-spacing: -.05em; margin: 10px 0 40px; }
+.detail-block h3 { font-size: 1rem; margin-bottom: 10px; }
+.detail-block p { color: var(--muted); max-width: 620px; }
+.detail-columns { display: grid; grid-template-columns: repeat(3, 1fr); gap: 30px; }
+.reflection-panel { margin: 0 24px 120px; padding: 70px; border: 1px solid var(--line); display: grid; grid-template-columns: .45fr 1.55fr; gap: 40px; background: #0f1218; }
+.reflection-mark { color: var(--accent); font-size: .62rem; letter-spacing: .18em; text-transform: uppercase; }
+.reflection-copy h2 { font-size: clamp(2.8rem, 5vw, 6rem); line-height: .88; letter-spacing: -.055em; margin-bottom: 28px; }
+.reflection-copy p { color: #d0d1d4; max-width: 850px; font-size: 1.05rem; }
+.technical-band { display: grid; grid-template-columns: repeat(4, 1fr); border-top: 1px solid var(--line); border-bottom: 1px solid var(--line); margin: 0 24px 120px; }
+.technical-band > div { padding: 28px; border-right: 1px solid var(--line); }
+.technical-band > div:last-child { border-right: 0; }
+.technical-band span { display: block; color: var(--faint); font-size: .6rem; letter-spacing: .17em; text-transform: uppercase; margin-bottom: 7px; }
+.technical-band strong { font-size: 1rem; }
+.project-next { padding: 0 24px 120px; }
+.next-project { display: flex; justify-content: space-between; gap: 20px; padding: 32px 0; border-top: 1px solid var(--line); border-bottom: 1px solid var(--line); }
+.next-project span { color: var(--faint); text-transform: uppercase; font-size: .62rem; letter-spacing: .16em; }
+.next-project strong { font-size: clamp(1.8rem, 3vw, 3.4rem); letter-spacing: -.045em; }
+
+.commercial-hero { grid-template-columns: .92fr 1.08fr; }
+.commercial-visual { width: min(480px, 100%); justify-self: center; background: #0f1215; border: 1px solid var(--line); padding: 8px; }
+.commercial-visual video { width: 100%; aspect-ratio: 9/16; object-fit: cover; background: #0b0d10; }
+.commercial-copy { padding-right: 4vw; }
+.production-board { margin: 0 24px; padding: 100px 6vw; background: #d8d7cf; color: #111; display: grid; grid-template-columns: 1fr 1fr; gap: 80px; }
+.production-board .eyebrow { color: #676865; }
+.board-title h2 { font-size: clamp(3.4rem, 6vw, 7rem); line-height: .85; letter-spacing: -.06em; margin-bottom: 0; }
+.board-list { margin-top: 32px; border-top: 1px solid rgba(0,0,0,.18); }
+.board-list div { display: grid; grid-template-columns: 44px 1fr; padding: 14px 0; border-bottom: 1px solid rgba(0,0,0,.18); }
+.board-list span { color: #74756f; font-size: .62rem; letter-spacing: .14em; }
+.board-copy > p { max-width: 620px; font-size: 1.05rem; }
+.take-layout { padding: 120px 24px; display: grid; grid-template-columns: 1.1fr .9fr; gap: 70px; align-items: center; }
+.take-visual img { width: 100%; max-height: 760px; object-fit: cover; object-position: center 20%; }
+.take-copy { max-width: 600px; }
+.take-copy h2 { font-size: clamp(3rem, 5vw, 5.8rem); line-height: .86; letter-spacing: -.055em; margin: 15px 0 25px; }
+.take-copy p { color: var(--muted); max-width: 560px; }
+.reflection-panel-light { background: #e8e5dc; color: #111; border: 0; }
+.reflection-panel-light .reflection-mark { color: #71732b; }
+.reflection-panel-light .reflection-copy p { color: #333; }
+.technical-band-light { color: #111; background: #e8e5dc; border-color: rgba(0,0,0,.16); }
+.technical-band-light > div { border-color: rgba(0,0,0,.16); }
+.technical-band-light span { color: #71716a; }
+
+@media (max-width: 980px) {
+  .topbar-actions { display: none; }
+  .menu-rail { right: 24px; width: min(310px, 42vw); }
+  .stage-copy { width: min(700px, 62vw); }
+  .section-grid, .skills-section, .contact-section, .project-hero, .commercial-hero, .project-story, .production-board, .take-layout { grid-template-columns: 1fr; }
+  .skill-grid { grid-column: 1; }
+  .quote-stack, .detail-columns { grid-template-columns: 1fr; }
+  .contact-side { justify-self: start; text-align: left; }
+  .work-row { grid-template-columns: 50px 42% 1fr; }
+  .row-arrow { display: none; }
+  .commercial-visual { justify-self: start; width: min(460px, 90%); }
+}
+
+@media (max-width: 680px) {
+  .topbar { padding: 16px 18px; }
+  .stage-copy { top: 17%; left: 18px; width: calc(100% - 36px); }
+  .stage-copy h1 { font-size: clamp(3.5rem, 18vw, 6rem); }
+  .stage-summary { max-width: 500px; }
+  .stage-meta { flex-wrap: wrap; gap: 9px 14px; }
+  .stage-cta-row { left: 18px; bottom: 128px; }
+  .menu-rail { right: 18px; left: 18px; bottom: 18px; top: auto; transform: none; width: auto; grid-template-columns: repeat(3, 1fr); }
+  .menu-item { padding: 12px 10px; border-radius: 12px; }
+  .menu-title { font-size: .72rem; line-height: 1.15; }
+  .menu-sub { display: none; }
+  .menu-number { margin-bottom: 4px; }
+  .scroll-cue { display: none; }
+  .section-grid, .work-list, .skills-section, .contact-section { padding: 76px 18px; }
+  .story-photo-wrap { max-width: 420px; }
+  .section-head { display: block; }
+  .section-note { margin-top: 20px; }
+  .work-row { grid-template-columns: 30px 1fr; gap: 16px; }
+  .work-thumb { grid-column: 2; }
+  .work-info { grid-column: 2; }
+  .work-row-vertical .work-thumb.vertical { width: 160px; }
+  .skills-section .skill-grid { grid-template-columns: 1fr; }
+  .contact-panel h2 { font-size: clamp(3rem, 15vw, 5rem); }
+  .project-hero, .commercial-hero { padding: 94px 18px 55px; gap: 42px; }
+  .project-story, .take-layout { padding: 76px 18px; }
+  .reflection-panel { margin: 0 18px 76px; padding: 34px 24px; grid-template-columns: 1fr; }
+  .technical-band { grid-template-columns: 1fr 1fr; margin: 0 18px 76px; }
+  .technical-band > div { border-right: 1px solid var(--line); border-bottom: 1px solid var(--line); }
+  .technical-band > div:nth-child(2n) { border-right: 0; }
+  .technical-band > div:nth-last-child(-n+2) { border-bottom: 0; }
+  .production-board { margin: 0 18px; padding: 62px 24px; }
+  .commercial-visual { width: 100%; }
+  .project-next { padding: 0 18px 76px; }
+  .next-project { display: block; }
+  .next-project strong { display: block; margin-top: 12px; }
+  .footer { padding-inline: 18px; flex-wrap: wrap; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  *, *::before, *::after { transition-duration: .001ms !important; animation-duration: .001ms !important; }
+}
