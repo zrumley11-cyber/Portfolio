@@ -1,0 +1,168 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Zachary Rumley — aspiring video production professional creating content that taps into the emotions of viewers and inspires them.">
+  <title>Zachary Rumley | Video Production Portfolio</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body class="home-page">
+  <div class="site-shell">
+    <header class="topbar">
+      <a class="brand-mark" href="index.html" aria-label="Zachary Rumley home">ZR<span>/</span>VIDEO</a>
+      <div class="topbar-actions">
+        <a href="#story">Your Story</a>
+        <a href="#work">Work</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero-menu" id="work" aria-labelledby="hero-title">
+        <div class="stage" id="stage">
+          <div class="stage-media" aria-hidden="true">
+            <video class="stage-video is-active" id="stage-video-pingpong" muted loop playsinline poster="assets/posters/pingpong.jpg" preload="metadata">
+              <source src="assets/media/pingpong-web.mp4" type="video/mp4">
+            </video>
+            <video class="stage-video" id="stage-video-chickfila" muted loop playsinline poster="assets/posters/chickfila.jpg" preload="none">
+              <source src="assets/media/chickfila-web.mp4" type="video/mp4">
+            </video>
+            <img class="stage-photo" id="stage-photo" src="assets/profile.png" alt="Professional portrait of Zachary Rumley" loading="eager">
+            <div class="stage-vignette"></div>
+          </div>
+
+          <div class="stage-copy" id="stage-copy">
+            <p class="eyebrow">VIDEO PRODUCTION / FEATURED WORK</p>
+            <h1 id="hero-title">Stories built to<br><em>move people.</em></h1>
+            <p class="stage-summary" id="stage-summary">I am an aspiring professional whose goal is to create content that taps into the emotions of viewers and ultimately inspires them.</p>
+            <div class="stage-meta" id="stage-meta">
+              <span>01 / 02</span>
+              <span>Ping Pong Promo</span>
+              <span>03:01</span>
+            </div>
+          </div>
+
+          <div class="stage-cta-row">
+            <a class="primary-action" id="stage-action" href="project-pingpong.html">Open project <span>↗</span></a>
+            <button class="quiet-action" id="play-stage" type="button">Pause motion</button>
+          </div>
+
+          <div class="menu-rail" aria-label="Production menu">
+            <button class="menu-item is-active" type="button" data-view="pingpong" aria-pressed="true">
+              <span class="menu-number">01</span>
+              <span class="menu-title">Ping Pong Promo</span>
+              <span class="menu-sub">Interview / B-roll</span>
+            </button>
+            <button class="menu-item" type="button" data-view="chickfila" aria-pressed="false">
+              <span class="menu-number">02</span>
+              <span class="menu-title">Chick-fil-A Sauce</span>
+              <span class="menu-sub">30-second commercial</span>
+            </button>
+            <button class="menu-item" type="button" data-view="story" aria-pressed="false">
+              <span class="menu-number">03</span>
+              <span class="menu-title">Your Story</span>
+              <span class="menu-sub">Person / purpose</span>
+            </button>
+          </div>
+
+          <div class="scroll-cue">SCROLL / EXPLORE</div>
+        </div>
+      </section>
+
+      <section class="story-section section-grid" id="story" aria-labelledby="story-title">
+        <div class="section-label">YOUR STORY / 03</div>
+        <div class="story-photo-wrap">
+          <img src="assets/profile.png" alt="Professional portrait of Zachary Rumley" class="story-photo" loading="lazy">
+        </div>
+        <div class="story-copy">
+          <p class="eyebrow">A person behind the work</p>
+          <h2 id="story-title">I want the work to<br><span>mean something.</span></h2>
+          <div class="quote-stack">
+            <blockquote>“I want to create content that moves the audience personally by using a combination of the story and the music to encourage and motivate them.”</blockquote>
+            <p>“I care about these things because of the way media, mainly movies, have connected with me on a deep level. I have personally experienced the power of a well-told story and the powerful emotion it creates. I want to use what skills and talents God has given me to showcase His love to others through media.”</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="work-list" aria-labelledby="work-title">
+        <div class="section-head">
+          <div>
+            <div class="section-label">FEATURED WORK</div>
+            <h2 id="work-title">Two projects.<br><span>Two kinds of storytelling.</span></h2>
+          </div>
+          <p class="section-note">A focused look at the projects that best show how I am learning to shape story, music, performance, and emotion.</p>
+        </div>
+
+        <a class="work-row" href="project-pingpong.html">
+          <div class="work-index">01</div>
+          <div class="work-thumb landscape">
+            <img src="assets/posters/pingpong.jpg" alt="Still from the Ping Pong promotional video" loading="lazy">
+            <span class="thumb-play">VIEW</span>
+          </div>
+          <div class="work-info">
+            <p class="eyebrow">Video Production final project</p>
+            <h3>Ping Pong Promo</h3>
+            <p>I wanted people to see that the org was fun and competitive, and I wanted them to consider joining once they watched.</p>
+          </div>
+          <span class="row-arrow">↗</span>
+        </a>
+
+        <a class="work-row work-row-vertical" href="project-chickfila.html">
+          <div class="work-index">02</div>
+          <div class="work-thumb vertical">
+            <img src="assets/posters/chickfila.jpg" alt="Still from the Chick-fil-A sauce commercial" loading="lazy">
+            <span class="thumb-play">VIEW</span>
+          </div>
+          <div class="work-info">
+            <p class="eyebrow">30-second commercial reel</p>
+            <h3>Chick-fil-A Sauce</h3>
+            <p>I wanted the viewers to enjoy watching the video, laugh at the comedy of it, and also buy more Chick-fil-A sauce.</p>
+          </div>
+          <span class="row-arrow">↗</span>
+        </a>
+      </section>
+
+      <section class="skills-section" aria-labelledby="skills-title">
+        <div class="section-label">PRODUCTION FOOTPRINT</div>
+        <h2 id="skills-title">Learning the craft<br><span>by making the work.</span></h2>
+        <div class="skill-grid">
+          <div class="skill-block">
+            <p class="skill-number">01</p>
+            <h3>Camera + lighting</h3>
+            <p>Sony FX-30. Three-point lighting. Shotgun mic on a boom/C-stand setup.</p>
+          </div>
+          <div class="skill-block">
+            <p class="skill-number">02</p>
+            <h3>Postproduction</h3>
+            <p>Adobe Premiere Pro. Sound cleanup, music, sound bites, take selection, and pacing.</p>
+          </div>
+          <div class="skill-block">
+            <p class="skill-number">03</p>
+            <h3>Production responsibility</h3>
+            <p>Preproduction planning, equipment reservation, interview coordination, talent releases, shooting, and editing.</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="contact-section" id="contact" aria-labelledby="contact-title">
+        <div class="contact-panel">
+          <div class="section-label">CONTACT</div>
+          <h2 id="contact-title">Let’s make something<br><span>that people feel.</span></h2>
+          <p>Phone: <a href="tel:+12315577327">231-557-7327</a></p>
+          <p>Email: <a href="mailto:Zrumley11@gmail.com">Zrumley11@gmail.com</a></p>
+          <p>LinkedIn: <a href="https://www.linkedin.com/in/zachary-rumley" target="_blank" rel="noreferrer">www.linkedin.com/in/zachary-rumley</a></p>
+        </div>
+        <div class="contact-side">VIDEO<br>PRODUCTION<br><span>ZR / 2026</span></div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <span>Zachary Rumley</span>
+      <span>Video Production Portfolio</span>
+      <a href="#work">Back to work ↑</a>
+    </footer>
+  </div>
+  <script src="script.js" defer></script>
+</body>
+</html>
