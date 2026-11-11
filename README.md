@@ -15,3 +15,7 @@ Do not delete the `assets` directory. The main portrait is `assets/profile.jpg`,
 The two film videos are embedded with playback controls; the opening background video is muted for browser autoplay.
 
 If an old nested `zachary-rumley-portfolio/` folder exists, it is not used by this version.
+
+
+## Films page update
+The top-right Films link now opens `films.html`, which includes playable versions of both films and links to each project page. The homepage headline is now "Impacting Lives One Video at a Time". Upload the complete contents of this ZIP to your GitHub repository root, replacing matching files.
