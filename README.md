@@ -1,29 +1,17 @@
-# Zachary Rumley — Video Production Portfolio
+# Zachary Rumley — Cinematic Portfolio
 
-Static portfolio site built for a class portfolio submission. The site is designed around a polished production-menu experience: image/video-forward presentation, a compact project selector, smooth state changes, and dedicated project pages.
+This is a static GitHub Pages website. All site files are at the root of the ZIP.
 
-## Files
-- `index.html` — homepage / production menu
-- `project-pingpong.html` — featured project page
-- `project-chickfila.html` — featured project page
-- `styles.css` — site styling and responsive layout
-- `script.js` — production-menu state changes and video controls
-- `assets/profile.png` — supplied headshot
-- `assets/posters/` — generated poster frames from the supplied videos
-- `assets/media/` — web-optimized copies of the supplied videos
+## Upload to GitHub
+1. Unzip the archive.
+2. Open your existing `Portfolio` repository, on the `main` branch.
+3. Use **Add file > Upload files** and upload the **contents** of this folder, not the folder itself.
+4. When prompted, replace existing files and commit changes.
+5. Confirm Settings > Pages uses **Deploy from a branch**, `main`, `/ (root)`.
+6. Wait for deployment, then open `https://zrumley11-cyber.github.io/Portfolio/`.
 
-## Publish on GitHub Pages
-1. Create a new GitHub repository.
-2. Upload the files in this folder directly into the repository root.
-3. In GitHub, open **Settings → Pages**.
-4. Set the source to **Deploy from a branch** and choose the default branch and `/ (root)`.
-5. Save. GitHub Pages will publish the static site.
+Do not delete the `assets` directory. The main portrait is `assets/profile.jpg`, the project videos are in `assets/media/`.
 
-## Media note
-The original Ping Pong Promo upload was too large for a normal GitHub repository file. The `assets/media/` files are web-optimized copies so the site can be hosted more easily. The supplied originals are not altered or overwritten.
+The two film videos are embedded with playback controls; the opening background video is muted for browser autoplay.
 
-## Easy edits
-- Replace text in the HTML files when you are ready to revise portfolio copy.
-- Replace poster images in `assets/posters/` if you want different opening frames.
-- Replace the video files in `assets/media/` using the same filenames to keep the site wiring unchanged.
-- Contact links are in `index.html`.
+If an old nested `zachary-rumley-portfolio/` folder exists, it is not used by this version.
