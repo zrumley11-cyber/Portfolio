@@ -1,13 +1,17 @@
-# Zachary Rumley — modular portfolio redesign
+# Zachary Rumley — Cinematic Portfolio
 
-A LEGO.com-inspired approach to navigation and layout: cheerful yellow navigation, simple modular content panels, large images, clean typography and smooth hover transitions. This is an independent design, not a LEGO-branded site.
+This is a static GitHub Pages website. All site files are at the root of the ZIP.
 
-## Publish on GitHub Pages
+## Upload to GitHub
+1. Unzip the archive.
+2. Open your existing `Portfolio` repository, on the `main` branch.
+3. Use **Add file > Upload files** and upload the **contents** of this folder, not the folder itself.
+4. When prompted, replace existing files and commit changes.
+5. Confirm Settings > Pages uses **Deploy from a branch**, `main`, `/ (root)`.
+6. Wait for deployment, then open `https://zrumley11-cyber.github.io/Portfolio/`.
 
-1. Unzip this archive.
-2. Open your existing GitHub Portfolio repository on the `main` branch.
-3. Upload the **contents** of the unzipped folder to the repository root, replacing files with matching names.
-4. Commit changes. Keep Settings > Pages > Deploy from branch > main > /(root).
-5. Allow a few minutes for deployment, then refresh the site.
+Do not delete the `assets` directory. The main portrait is `assets/profile.jpg`, the project videos are in `assets/media/`.
 
-Keep the `assets` folder and media files together. `index.html` must be in the root. Videos have visible controls on project pages. No external libraries are required.
+The two film videos are embedded with playback controls; the opening background video is muted for browser autoplay.
+
+If an old nested `zachary-rumley-portfolio/` folder exists, it is not used by this version.
