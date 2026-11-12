@@ -7,3 +7,5 @@ Pages: index.html, films.html, project-bunions.html, project-pingpong.html, proj
 Videos are in assets/media/. If GitHub refuses a file, check the upload limit and use git or Git LFS as appropriate.
 
 GitHub Pages: Settings > Pages > Deploy from branch > main > /(root).
+
+Homepage hero: cycles through Bunions and Dragons, Ping Pong Promo, and Chick-fil-A Commercial every 3 seconds, muted. Reduced-motion preference shows a still first frame.
