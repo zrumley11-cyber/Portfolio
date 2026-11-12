@@ -1,11 +1,7 @@
-Zachary Rumley cinematic portfolio — three films
+# Zachary Rumley — cinematic portfolio (15-scene homepage reel)
 
-Upload ALL contents of this folder to the root of your GitHub Pages repository (not an enclosing folder). Keep assets/ intact.
+Upload all repository-root files and the `assets/` directory to the root of your GitHub Pages repository.
 
-Pages: index.html, films.html, project-bunions.html, project-pingpong.html, project-chickfila.html.
+The homepage background is `assets/media/homepage-15-clips.mp4`, a 75-second montage of fifteen different five-second clips: five from each of the three films, interleaved Bunions → Ping Pong → Chick-fil-A five times. It loops after all fifteen scenes. The complete films remain available on the Films and project pages.
 
-Videos are in assets/media/. If GitHub refuses a file, check the upload limit and use git or Git LFS as appropriate.
-
-GitHub Pages: Settings > Pages > Deploy from branch > main > /(root).
-
-Homepage hero: cycles through Bunions and Dragons, Ping Pong Promo, and Chick-fil-A Commercial every 3 seconds, muted. Reduced-motion preference shows a still first frame.
+All substantive student-authored text is preserved. The montage is muted and includes a poster fallback; reduced-motion settings pause autoplay.
