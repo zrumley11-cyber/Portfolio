@@ -14,3 +14,22 @@
 
 /* Headline kerning: keep the italic words from touching. */
 .hero h1 em{letter-spacing:-.025em;font-kerning:normal;}
+
+/* Audio Story Mix: cinematic listening page */
+.audio-page {background:#111215;color:#f4f0e9;}
+.audio-main {min-height:80vh;}
+.audio-stage {min-height:72vh;display:flex;align-items:center;justify-content:center;padding:140px 6vw 85px;background:radial-gradient(ellipse at 75% 35%,#34333b 0%,#1c1c22 43%,#101114 83%);}
+.audio-stage-inner {width:min(100%,1050px);}
+.audio-category {letter-spacing:.24em;font-size:.78rem;text-transform:uppercase;color:#bcb7b2;margin-bottom:1.6rem;}
+.audio-stage h1 {font-size:clamp(3.5rem,9vw,8.5rem);line-height:1.05;letter-spacing:-.035em;margin:0 0 3rem;color:#fff;}
+.audio-stage h1 em {font-weight:400;}
+.audio-player-shell {padding:clamp(20px,4vw,44px);background:rgba(255,255,255,.07);border:1px solid rgba(255,255,255,.2);border-radius:4px;}
+.audio-player-shell audio {display:block;width:100%;height:54px;}
+.audio-visual {display:flex;align-items:center;justify-content:center;gap:clamp(4px,1vw,13px);height:135px;margin-bottom:28px;overflow:hidden;}
+.audio-visual span {display:block;flex:1;max-width:16px;min-width:3px;background:#d7b59b;border-radius:2px;opacity:.85;}
+.audio-visual span:nth-child(6n+1){height:18%}.audio-visual span:nth-child(6n+2){height:46%}.audio-visual span:nth-child(6n+3){height:74%}.audio-visual span:nth-child(6n+4){height:31%}.audio-visual span:nth-child(6n+5){height:91%}.audio-visual span:nth-child(6n){height:58%}
+.audio-notes {max-width:1080px;margin:0 auto;padding:75px 6vw 120px;}
+.audio-note {display:grid;grid-template-columns:minmax(170px,1fr) minmax(0,2fr);gap:35px;padding:34px 0;border-top:1px solid rgba(255,255,255,.2);}
+.audio-note h2 {font-size:clamp(1.1rem,2vw,1.5rem);font-weight:500;margin:0;color:#dfc2ad;}
+.audio-note p {font-size:clamp(1rem,1.5vw,1.2rem);line-height:1.8;margin:0;max-width:68ch;color:#f0ede9;}
+@media(max-width:700px){.audio-stage{padding:135px 6vw 60px;min-height:65vh}.audio-stage h1{margin-bottom:2rem}.audio-note{grid-template-columns:1fr;gap:10px}.audio-notes{padding-top:45px}.audio-visual{height:90px}}

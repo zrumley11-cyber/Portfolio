@@ -1,5 +1,5 @@
-Zachary Rumley Portfolio — approved text updates
+Zachary Rumley Portfolio
 
-Upload the CONTENTS of this folder to the root of your GitHub Portfolio repository. Replace existing matching files. This package retains all three film pages, video assets, styling and homepage montage.
+Upload all files and the assets folder directly to the repository root. Set GitHub Pages to main / (root).
 
-Approved wording changes were applied to index.html and films.html only. Individual project pages have not yet undergone wording review.
+New: audio.html and assets/media/audio-story-mix.mp3. The Audio link is added to every page. Playback is click-to-play. All original film media and approved wording remain unchanged.
