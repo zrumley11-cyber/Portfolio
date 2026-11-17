@@ -33,3 +33,6 @@
 .audio-note h2 {font-size:clamp(1.1rem,2vw,1.5rem);font-weight:500;margin:0;color:#dfc2ad;}
 .audio-note p {font-size:clamp(1rem,1.5vw,1.2rem);line-height:1.8;margin:0;max-width:68ch;color:#f0ede9;}
 @media(max-width:700px){.audio-stage{padding:135px 6vw 60px;min-height:65vh}.audio-stage h1{margin-bottom:2rem}.audio-note{grid-template-columns:1fr;gap:10px}.audio-notes{padding-top:45px}.audio-visual{height:90px}}
+
+/* Film page category matches the audio page label */
+.films-intro .audio-category { margin: 0 0 1rem; }
