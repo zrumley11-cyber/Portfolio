@@ -36,3 +36,11 @@
 
 /* Film page category matches the audio page label */
 .films-intro .audio-category { margin: 0 0 1rem; }
+
+/* About gateway and documentary pending video */
+.about-gateway{background:#e7e3d9;color:#1b211e;display:flex;align-items:center;justify-content:space-between;gap:35px;flex-wrap:wrap}
+.about-gateway h2{font-size:clamp(42px,6vw,88px);margin:0}
+.about-gateway .text-link{color:#1b211e;min-width:175px}
+.documentary-placeholder{width:100%;min-height:300px;aspect-ratio:16/9;border:1px solid #7b7e76;background:#242720;color:#e9e5dc;display:grid;place-items:center;font-size:clamp(18px,2.5vw,30px);letter-spacing:.02em;text-align:center;padding:24px}
+.project-screen .documentary-placeholder{max-width:1100px;margin:auto}
+@media(max-width:700px){.about-gateway{align-items:flex-start;flex-direction:column}.documentary-placeholder{min-height:220px}}
